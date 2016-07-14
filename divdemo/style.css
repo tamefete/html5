@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+ 
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+    height: 200px;
+    background-color: #F5F5F5;
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+}
+
+#head-link{
+     height: 30px;
+     line-height: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border: 1px solid #CDCDCD;
+     background-color: #F5F5F5;
+     margin-bottom:5px;
+     clear: both;
+	 font-size:18px;
+}
+
+#left{
+     width: 150px;
+     min-height: 500px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     background-color: #004C00;
+     margin-bottom: 5px;
+}
+
+#content{
+     width: 600px;
+     min-height: 500px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+
+#content p:first-letter
+{
+	font-size:24px;
+}
+
+#content p
+{
+	text-align:justify;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#content div.show  /* định nghĩa  class selector của tag div nằm trong tag có id là content */
+{
+	float: left;
+	width:150px;
+	height:200px;
+	margin:20px;
+	border:2px solid #C60;
+	text-align:center;
+}
+
+#right{
+     width: 234px;
+     min-height: 500px;
+     border: 1px solid #CDCDCD;
+     float:right;
+     margin-bottom: 5px;
+}
+
+#right div  /* định nghĩa tag div nằm trong tag có id là right  */
+{
+	width:180px;
+	height:180px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	border:1px solid #9F0;
+}
+
+#footer{
+     height: 80px;
+     clear: both;
+     border: 1px solid #CDCDCD;
+     background-color: #F8F8FF;
+	 text-align:center;
+	 font-weight:bold;
+}
+
+a:link
+{
+	text-decoration:none;
+}
+
+a:hover
+{
+	font-style:italic;
+	font-weight:bold;
+	color:#00CCFF;
+}
+
+h3
+{
+	padding-left:10px;
+	color:#00FFFF;
+}
+
+ul
+{
+	list-style-image:url(images/image001.gif);
+}
+
+li a
+{
+	padding-left:5px;
+	line-height:30px;
+	font-size:14px;
+	color:#0CF;
+}
+
+nav a.right  /* định nghĩa class của tag a nằm trong tag nav*/
+{
+	text-align:right;
+	float:right;
+}
