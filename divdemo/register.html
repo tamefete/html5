@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Demo section Tag</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+	<section id="main">
+        <section id="head">
+        	<header>
+            	<img src="images/banner.jpg" height="200px" width="997" />
+            </header>
+        </section>
+        <section id="head-link">
+        	<nav>
+            	<a href="index.html"><img src="images/home.png" height="20px" width="20px" /></a> &nbsp;|&nbsp;
+                <a href="intro.html">Giới thiệu</a> &nbsp;|&nbsp;
+                <a href="product.html">Sản phẩm</a> &nbsp;|&nbsp;
+                <a href="contact.html">Liên hệ</a>
+                <a class="right" href="register.html">&nbsp; Đăng ký</a>
+                <a class="right" href="#">Đăng nhập | </a>
+            </nav>
+        </section>
+        <section id="left">
+        	<h3>Danh mục:</h3>
+            <nav>
+            	<ul>
+                	<li><a href="#">Quần Jean</a></li>
+                    <li><a href="#">Áo Thun</a></li>
+                    <li><a href="#">Váy</a></li>
+                    <li><a href="#">Đầm Dạ Hội</a></li>
+                </ul>
+            	 <br>
+            </nav>
+        </section>
+        <section id="content">
+        		<div  class="form">
+                        <form id="contactform"> 
+                            <p class="contact"><label for="name">Name</label></p> 
+                            <input id="name" name="name" placeholder="First and last name" required tabindex="1" type="text"> 
+                             
+                            <p class="contact"><label for="email">Email</label></p> 
+                            <input id="email" name="email" placeholder="example@domain.com" required type="email"> 
+                            
+                            <p class="contact"><label for="username">Create a username</label></p> 
+                            <input id="username" name="username" placeholder="username" required tabindex="2" type="text"> 
+                             
+                            <p class="contact"><label for="password">Create a password</label></p> 
+                            <input type="password" id="password" name="password" required> 
+                            <p class="contact"><label for="repassword">Confirm your password</label></p> 
+                            <input type="password" id="repassword" name="repassword" required> 
+                    
+                           <fieldset>
+                             <label>Birthday</label>
+                              <label class="month"> 
+                              <select class="select-style" name="BirthMonth">
+                              <option value="">Month</option>
+                              <option  value="01">January</option>
+                              <option value="02">February</option>
+                              <option value="03" >March</option>
+                              <option value="04">April</option>
+                              <option value="05">May</option>
+                              <option value="06">June</option>
+                              <option value="07">July</option>
+                              <option value="08">August</option>
+                              <option value="09">September</option>
+                              <option value="10">October</option>
+                              <option value="11">November</option>
+                              <option value="12" >December</option>
+                              </label>
+                             </select>    
+                            <label>Day<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required></label>
+                            <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required></label>
+                          </fieldset>
+              
+                        <select class="select-style gender" name="gender">
+                        <option value="select">i am..</option>
+                        <option value="m">Male</option>
+                        <option value="f">Female</option>
+                        <option value="others">Other</option>
+                        </select><br><br>
+                        
+                        <p class="contact"><label for="phone">Mobile phone</label></p> 
+                        <input id="phone" name="phone" placeholder="phone number" required type="number"> <br>
+                        <input class="buttom" name="submit" id="submit" tabindex="5" value="Sign me up!" type="submit"> 	 
+               </form> 
+            </div>      
+
+        </section>
+        <section id="right">
+        	<marquee direction="up">
+            	<a href="http://aptech.fpt.edu.vn/" target="_blank">
+                   <div><img src="images/aside04.gif" height="178px" width="178px"/></div></a>
+                <a href="http://cms.fpt-academy.edu.vn/" target="_blank">
+                   <div><img src="images/aside05.gif" height="178px" width="178px"/></div></a>                
+            </marquee>        	
+        </section>
+        <section id="footer">
+        	<footer>
+            	<p>Copyright &copy; TamEfete - FPT University <br>
+                email: tampm.fat@gmail.com
+                <p>FPT-Aptech: 590 Cách Mạng Tháng Tám, Quận 3
+                  (đối diện công viên Lê Thị Riêng, phía sau siêu thị điện máy Chợ Lớn) - ĐT: (08) 3 846 0 846
+            </footer>
+        </section>
+	</section>
+</body>
+</html>
